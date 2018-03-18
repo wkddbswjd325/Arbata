@@ -1,0 +1,184 @@
+/*
+	매칭 관련된 페이지에 사용되는 디자인
+*/
+
+input[type=checkbox] {    
+    cursor: pointer;   
+    margin-left: 6px;
+	border-radius:3px; 
+	width: 20px; 
+    height: 20px;
+	float:left;
+	position: absolute;
+	margin-top:13px;
+	margin-bottom:10px;
+	padding:10px;
+}
+
+#divBoard {
+	height: auto;
+	background-color: #f4f5f9;
+	padding: 7px;
+	margin: 0px;
+	border-bottom:1px solid white;
+	text-align: -webkit-left;
+}
+
+#spanTitle {
+	padding-left:5px;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #252c41;
+	width: 90%;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-left:35px;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+#spanApTitle {
+	font-size: 13pt;
+	font-weight: bold;
+	color: #252c41;
+	width: 70%;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-left:35px;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-left:5px;
+}
+
+#spanApBody {
+	margin-left:35px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 10pt;
+	color:  gray;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+#spanBody {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 10pt;
+	color:  gray;
+}
+
+#stmt0Btn {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#005783;
+	font-size:14px;
+	color:white;
+	text-align:center;
+	margin:1;
+	padding: 7px 10px;
+	cursor:pointer;
+	width:100%;
+	border-radius:0px;
+}
+
+#stmt1Btn {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#2997d0;
+	font-size:14px;
+	color:white;
+	text-align:center;
+	margin:1;
+	padding: 7px 10px;
+	cursor:pointer;
+	width:100%;
+	border-radius:0px;
+}
+
+#stmt2Btn {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:gray;
+	font-size:14px;
+	color:white;
+	text-align:center;
+	margin:1;
+	padding: 7px 10px;
+	cursor:pointer;
+	width:100%;
+	border-radius:0px;
+}
+
+#ap_info {
+	padding: 10px 10px 10px 10px;
+	display:block;
+	position: relative;
+}
+
+#ap_info_title {
+	position: absolute;
+    color: #252c41;
+    font-weight: bold;
+	font-size:15px;
+	margin:0px;
+}
+
+#ap_info_content {
+	position: relative;
+    display: block;
+    vertical-align: top;
+	padding-left:110px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+#matchBtn {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#f1404b;
+	font-size:20px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	cursor:pointer;
+	width:100%;
+	border-radius:7px;
+}
+#rstBtn {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#f1404b;
+	font-size:20px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	cursor:pointer;
+	width:100%;
+	border-radius:7px;
+}
+
+body {
+	margin: 0px;
+	width: 100%;
+	overflow-x:hidden;
+}
+
+#msg_hd {
+	position: relative;
+	top:0;
+	left:0;
+	width:100%;
+	//transition:top 0.15s ease;
+	background: red;
+}
+
+nav.scrolled {
+	top:0;
+	position: fixed;
+}

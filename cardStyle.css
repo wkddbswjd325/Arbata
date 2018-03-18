@@ -1,0 +1,83 @@
+
+#cardDiv {
+	height: auto;
+	background-image: url(image/back.png);
+	padding: 0px;
+	margin: 10px 10px 0px 10px;
+	border:1px solid #252c41;
+}
+
+.writer_img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 10px 0px 0px 12px;
+    border-radius: 70px;
+	float:left;
+	display:inline-block;
+}
+
+#infomation_title {
+	padding:15px 0px 15px 18px;
+    font-size: 20px;
+    color: #252c41;
+	font-weight: bold;
+}
+
+#infomation_content {
+	padding:0px 10px 10px 18px;
+    font-size: 17px;
+    color: #252c41;
+	line-height:2em;
+}
+
+#write_info {
+	margin-top:3%;
+	margin-bottom:2%;
+    font-size: 20px;
+    color: #252c41;
+    word-break: break-all;
+	padding: 70px 0px 0px 100px;
+}
+
+#write_info2 {
+	margin-bottom:3%;
+    font-size: 15px;
+    color: #252c41;
+    word-break: break-all;
+	padding: 0px 10px 10px 60px;
+}
+
+#warning {
+	margin-top:15%;
+    font-size: 15px;
+    color: #252c41;
+    word-break: break-all;
+	padding: 20px 20px 20px 20px;
+}
+
+#spanRole{
+	float:right;
+	margin: 8px 3px 0px 10px;
+}
+
+#reviewBtn {
+	border:1px;
+	background-color:#f1404b;
+	font-size:15px;
+	color:#f4f5f9;
+	text-align:center;
+	width:80px;
+	margin: 3px 10px 0px 0px;
+	padding: 5px 10px 5px 10px;
+	float:right;
+	cursor:pointer;
+	border-radius:7px;
+}
+
+body {
+	margin: 0px;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #f4f5f9;
+}

@@ -1,0 +1,281 @@
+/* 게시판을 위한 디자인 */
+input[type="search"] {
+	border-radius: 0px;
+}
+
+#boardDiv {
+    background-color: #f4f5f9;
+}
+
+#searchImage {
+	width:100%;
+	border:0px; 
+	vertical-align:middle;
+	height:auto;
+}
+
+#selectLocal {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#f1404b;
+	font-size:15px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding: 5px 7px 5px 7px ;
+	cursor:pointer;
+	width:auto;
+	border-radius:7px;
+}
+
+#writeBtn {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#f1404b;
+	font-size:15px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding: 1px 3px;
+	cursor:pointer;
+	width:30%;
+	border-radius:7px;
+}
+
+#writeOk {
+	-webkit-appearance: none;
+	font-size:15px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding: 5px 5px;
+	cursor:pointer;
+	width:45%;
+	border-radius:7px;
+}
+
+#writeRst {
+	-webkit-appearance: none;
+	font-size:15px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding: 5px 5px;
+	cursor:pointer;
+	width:45%;
+	border-radius:7px;
+}
+
+td {
+	color:#252c41;
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	overflow-x:hidden;
+	font-family: 'NanumGothic';
+}
+
+#divBoard {
+	height: auto;
+	background-color: #f4f5f9;
+	padding: 7px;
+	margin: 0px;
+	border-bottom:1px solid white;
+}
+
+#spanTitle {
+	padding-left: 10;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #252c41;
+	width: 90%;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+#spanMoney {
+	padding-left: 10;
+	font-size: 10pt;
+	color: gray;
+}
+
+#spanBody {
+	padding-left: 2;
+	font-size: 10pt;
+	color: gray;
+}
+
+#matchingTitle {
+	padding-left: 5;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #252c41;
+	width: 70%;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#matchingRequest {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#f1404b;
+	font-size:17px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:1;
+	margin-top :4px;
+	padding: 6px 6px;
+	cursor:pointer;
+	width:100%;
+	border-radius:7px;
+}
+
+/*수연 수정 부분*/
+
+#readTitle {
+	position: relative;
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.title {
+	margin-bottom: 0px;
+	margin-top:5px;
+    font-size: 22px;
+    color: #252c41;
+    font-weight: normal;
+    word-break: break-all;
+}
+
+.writer_img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 35px;
+	float:left;
+	display:inline-block;
+}
+
+#write_info {
+    font-size: 14px;
+    color: gray;
+    word-break: break-all;
+	padding: 10px 0 20px;
+}
+
+#er_info {
+	padding: 10px 10px 10px 10px;
+}
+
+#er_info_title {
+	color: gray;
+	font-size: 15px;
+	margin-left: 5px;
+	display:inline-block;
+}
+
+#er_info_content {
+	color: #252c41;
+	font-size: 16px;
+	display:inline-block;
+	margin: 0px 5px 0px 5px;
+}
+
+#er_content {
+	color: #252c41;
+	font-size: 16px;
+	display:block;
+	margin: 0px 5px 0px 5px;
+	background-color:white;
+	border:0px;
+	border-radius:5px;
+	padding:10px 10px 10px 10px;
+}
+
+#sendMsg,#save { 
+	border:solid;
+	background-color:#ffffff;
+	color:#f1404b;
+	font-size:12px;
+	margin:10px 5px 10px;
+	padding: 8px 8px;
+	cursor:pointer;
+	display:inline-block;
+	width:27%;
+}
+
+#applyMatching {
+	border:solid;
+	border-color:#f1404b;
+	font-size:12px;
+	margin:10px 5px 10px;
+	padding: 8px 8px;
+	cursor:pointer;
+	display:inline-block;
+	width:27%;
+}
+
+#readEdit,#readDel {
+	border:solid;
+	border-color:#f1404b;
+	font-size:12px;
+	margin:10px 5px 10px;
+	padding: 8px 8px;
+	cursor:pointer;
+	display:inline-block;
+	width:45%;
+}
+
+#ee_info {
+	padding: 10px 10px 10px 10px;
+}
+
+#ee_info_title {
+	color: gray;
+	font-size: 15px;
+	display:inline-block;
+	margin-left: 5px;
+	vertical-align:top;
+}
+
+#ee_info_content {
+	color: #252c41;
+	font-size: 16px;
+	display:inline-block;
+	margin: 0px 5px 0px 5px;
+}
+
+#ee_content {
+	color: #252c41;
+	font-size: 16px;
+	display:block;
+	margin: 0px 5px 0px 5px;
+	background-color:white;
+	border:0px;
+	border-radius:5px;
+	padding:10px 10px 10px 10px;
+}
+
+#applyReadTitle {
+	width:70%;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+#reviewRadioNotice {
+	color: gray;
+	font-size: 15px;
+	margin-left: 5px;
+	display:inline-block;
+}

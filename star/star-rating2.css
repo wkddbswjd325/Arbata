@@ -1,0 +1,54 @@
+
+/*올리기 버튼 꾸미는 소스*/
+html input[type=submit]{-webkit-appearance:button;}
+
+/*별점 버튼꾸미는 소스*/
+.glyphicon-star:before{font-style:normal;content:"★"}.glyphicon-star-empty:before{font-style:normal;content:"☆"}
+
+/*0점으로 만드는 버튼*/
+.glyphicon-minus-sign:before{font-style:normal;font-size:50px;content:"-"}
+
+/*폰트, 선 관련 꾸미는 소스*/
+body{font-family:sans-serif;font-size:14px;line-height:1.42857143;}
+
+/*후기남기는 칸 꾸미는 소스*/
+textarea{font-family:inherit;font-size:inherit;line-height:inherit}
+
+/*후기칸 밑의 줄 꾸미는 소스*/
+hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}
+
+/*올리기 버튼 꾸미는 소스*/
+.btn{color:#fff;padding:8px 17px;margin-bottom:0;font-size:14px;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;border-radius:7px}
+
+/*숫자박스 꾸미는 소스*/
+.label{text-decoration:none;display:inline;padding:.2em .6em .3em;font-size:100%;font-weight:700;line-height:1;text-align:center;
+white-space:nowrap;vertical-align:baseline;border-radius:.25em}
+
+/*0 숫자 색깔 정하는 소스*/
+.label{position:relative;top:2px}.label-default{color:#gray}
+/*4.5, 5 숫자 색깔 정하는 소스*/
+.label-success{color:#0000ff}
+/*3.5, 4 숫자 색깔 정하는 소스*/
+.label-primary{color:#1f69ff}
+/*2.5, 3 숫자 색깔 정하는 소스*/
+.label-info{color:#4683ff}
+/*1.5, 2 숫자 색깔 정하는 소스*/
+.label-warning{color:#0ba6f6}
+/*0.5, 1 숫자 색깔 정하는 소스*/
+.label-danger{color:#78d1f3}
+
+
+/*숫자 옆에 숫자 칸 안뜨게 하는 소스*/
+.hide{display:none!important}
+
+
+
+
+
+
+
+
+
+
+
+

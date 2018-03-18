@@ -1,0 +1,32 @@
+/*
+	메뉴바를 위한 디자인
+	메뉴바가 항시 고정되어있게 해주는 소스
+*/
+.headerFix {
+    position: absolute;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:2;
+    display: block;
+}
+
+.hdr {
+	position: relative;
+	z-index:1;
+    top: 0;
+	background-color: transparent;
+	height: 40px;
+    width: 100%;
+	background-color: #fff;
+	opacity : 0.9;
+	-ms-filter:alpha(opacity=0.9); /* IE8 */ 
+	filter: alpha(opacity=0.9); /* IE5-7 */ 
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	overflow-x:hidden;
+}

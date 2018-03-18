@@ -1,0 +1,83 @@
+/*
+	message에 관련된 페이지에 사용되는 디자인
+*/
+
+input[type=checkbox] {    
+	cursor: pointer;   
+	margin-left: 20px;  
+	border-radius: 3px; 
+	width: 20px; 
+	height: 20px;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+}
+
+#msgUl {
+	display:block;
+	list-style-type:none;
+	padding-left:0px;
+	margin-top:0px;
+	margin-left:3px;
+}
+
+#msgLi {
+	position: relative;
+	padding-right:5px;
+	padding-top:7px;
+	padding-bottom:7px;
+	background-color: #f6f6f6;
+	border-bottom:1px solid white;
+	display:block;
+	margin-left:0px;
+}
+
+#spanBody {
+	font-size: 10pt;
+	color:gray;
+	margin-left:35px;
+	padding-left:10px;
+}
+
+#spanTitle {
+	font-size: 13pt;
+	font-weight: bold;
+	color: #252c41;
+	width: 90%;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-left:35px;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-left:10px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	overflow-x:hidden;
+}
+
+#noticeT {
+	font-size: 13pt;
+	font-weight: bold;
+	color: #252c41;
+	width: 95%;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-left:10px;
+}
+
+#noticeDate {
+	padding-left:1px;
+	font-size: 10pt;
+	color:gray;
+}

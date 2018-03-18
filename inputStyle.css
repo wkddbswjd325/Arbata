@@ -1,0 +1,265 @@
+/*
+	각 페이지의 버튼 디자인을 위함
+*/
+
+input[type="text"], [type="password"] {
+	width:70%
+}
+input[type="submit"], [type="reset"], [type="button"] {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#f1404b;
+	font-size:20px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding: 8px 8px;
+	cursor:pointer;
+	width:100%;
+	border-radius:7px;
+}
+
+#inputId {
+	font-size:20px;
+}
+
+#inputPwd {
+	font-size:20px;
+}
+
+#inputRcv {
+	width:90%;
+	font-size:15px;
+}
+
+#inputTitle {
+	width:90%;
+	font-size:15px;
+}
+
+#inputModify {
+	font-size:12px;
+}
+
+#inputSearch {
+	width:100%;
+	font-size:15px;
+}
+
+#myPageSaveList {
+	border:solid;
+	background-color:#ffffff;
+	color:#f1404b;
+	font-size:15px;
+	margin:0;
+	padding: 8px 8px;
+	cursor:pointer;
+	width:100%;
+}
+
+#myPageMessageBox {
+	border:solid;
+	background-color:#ffffff;
+	color:#f1404b;
+	font-size:15px;
+	margin:0;
+	padding: 8px 8px;
+	cursor:pointer;
+	width:100%;
+}
+
+#myList {
+	font-size:15px;
+	margin:0;
+	padding: 8px 8px;
+	cursor:pointer;
+	width:100%;
+}
+
+#myPhoto {
+	border-radius:100px;
+}
+
+#msgTextarea {
+	width:90%;
+	font-size:15px;
+}
+
+#msgTitle {
+   width:100%;
+   font-size:15px;
+}
+
+#msgSender {
+   width:100%;
+   font-size:15px;
+}
+
+#msgDate {
+   width:100%;
+   font-size:15px;
+}
+
+#finder {
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height:30px;
+
+}
+
+#joinIdCheck {
+	-webkit-appearance: none;
+	border:2px;
+	background-color:#f1404b;
+	border-color:black;
+	font-size:13px;
+	color:white;
+	text-align:center;
+	margin:0;
+	padding: 4px 10px;
+	cursor:pointer;
+	width:100%;
+}
+
+#rcv {
+	-webkit-appearance: none;
+	background-color:#f1404b;
+	font-size:15px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding:5px 0 5px 0;
+	cursor:pointer;
+	width:100%;
+	border-radius:7px;
+}
+
+#remove {
+	-webkit-appearance: none;
+	background-color:#f1404b;
+	font-size:15px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding:5px 5px 5px 5px;
+	cursor:pointer;
+	width:100%;
+	border-radius:7px;
+}
+
+#btnMatcing {
+	-webkit-appearance: none;
+	background-color:#f1404b;
+	font-size:15px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding: 3px 5px;
+	cursor:pointer;
+	width:100%;
+	border-radius:7px;
+}
+
+#btnFindId {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#f1404b;
+	font-size:20px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding: 8px 20px;
+	cursor:pointer;
+	width:50%;
+	border-radius:7px;
+}
+
+#btnFindPwd {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#f1404b;
+	font-size:20px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding: 8px 20px;
+	cursor:pointer;
+	width:70%;
+	border-radius:7px;
+}
+
+#editArea {
+	-webkit-appearance: none;
+	border:1px;
+	background-color:#f1404b;
+	font-size:14px;
+	color:#f4f5f9;
+	text-align:center;
+	margin:0;
+	padding: 1px 1px;
+	cursor:pointer;
+	width:25%;
+	border-radius:7px;
+}
+
+#AvgStar {
+	margin-right:12px;
+	font-size:15px;
+	float:right;
+}
+
+#AvgStarResult {
+	font-size:40px;
+}
+
+#reviewBoard {
+	height: auto;
+	background-color: #f4f5f9;
+	padding: 7px;
+	margin: 0px;
+	border-top:1px solid white;
+}
+
+#reviewRadio {
+	padding-top: 5;
+	padding-left: 5;
+	position: relative;
+	font-size:10px;
+	height: 40px;
+	vertical-align:middle;
+	color: #f1404b;
+	float:left;
+	display:inline-block;
+}
+
+#reviewTitle {
+	position: relative;
+	padding-left: 12;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #252c41;
+	width: 75%;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+#reviewBody {
+	position: relative;
+	padding-left: 12;
+	font-size: 10pt;
+	color: gray;
+}
+
+a:link { color: #252c41; text-decoration:none; }
+a:visited { color: #252c41; text-decoration:none; }
+a:hover { color: #252c41; text-decoration:none; }
+a:active { color : #252c41; text-decoration:none; }
+
+body {
+	margin: 0;
+	width: 100%;
+	overflow-x:hidden;
+}
